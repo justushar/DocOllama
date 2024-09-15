@@ -4,12 +4,13 @@ import random
 import streamlit as st
 from dotenv import load_dotenv
 
-from ragbase.chain import ask_question, create_chain
-from ragbase.config import Config
-from ragbase.ingestor import Ingestor
-from ragbase.model import create_llm
-from ragbase.retriever import create_retriever
-from ragbase.uploader import upload_files
+from DocOllama.chain import ask_question, create_chain
+from DocOllama.config import Config
+from DocOllama.ingestor import Ingestor
+from DocOllama.model import create_llm
+from DocOllama.retriever import create_retriever
+from DocOllama.uploader import upload_files
+
 
 load_dotenv()
 
@@ -101,7 +102,7 @@ def show_chat_input(chain):
 st.set_page_config(page_title="RagBase", page_icon="🐧")
 
 st.html(
-    """
+"""
 <style>
     .st-emotion-cache-p4micv {
         width: 2.75rem;
