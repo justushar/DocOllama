@@ -11,13 +11,13 @@ git clone git@github.com:justushar/DocOllama.git
 cd ragbase
 ```
 
-Install the dependencies (requires Poetry):
+Install the dependencies:
 
 ```sh
-poetry install
+pip install -r requirements.txt
 ```
 
-Fetch your LLM (gemma2:9b by default):
+Fetch your LLM (llama3.1 by default):
 
 ```sh
 ollama pull llama3.1:8b
@@ -29,10 +29,10 @@ Run the Ollama server
 ollama serve
 ```
 
-Start RagBase:
+Start DocOllama:
 
 ```sh
-poetry run streamlit run app.py
+streamlit run app.py
 ```
 
 ## Architecture
