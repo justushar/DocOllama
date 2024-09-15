@@ -6,8 +6,8 @@ from langchain_core.language_models import BaseLanguageModel
 from langchain_core.vectorstores import VectorStore, VectorStoreRetriever
 from langchain_qdrant import Qdrant
 
-from ragbase.config import Config
-from ragbase.model import create_embeddings, create_reranker
+from DocOllama.config import Config
+from DocOllama.model import create_embeddings, create_reranker
 
 
 def create_retriever(

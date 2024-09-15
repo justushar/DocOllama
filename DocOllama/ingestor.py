@@ -8,7 +8,7 @@ from langchain_experimental.text_splitter import SemanticChunker
 from langchain_qdrant import Qdrant
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-from ragbase.config import Config
+from DocOllama.config import Config
 
 
 class Ingestor:

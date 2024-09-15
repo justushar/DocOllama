@@ -4,7 +4,7 @@ from typing import List
 
 from streamlit.runtime.uploaded_file_manager import UploadedFile
 
-from ragbase.config import Config
+from DocOllama.config import Config
 
 
 def upload_files(
