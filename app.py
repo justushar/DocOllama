@@ -99,7 +99,7 @@ def show_chat_input(chain):
         asyncio.run(ask_chain(prompt, chain))
 
 
-st.set_page_config(page_title="RagBase", page_icon="🐧")
+st.set_page_config(page_title="DocOllama", page_icon="🐧")
 
 st.html(
 """
