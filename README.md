@@ -1,4 +1,4 @@
-# RagBase - Private Chat with Your Documents
+# DocOllama - Private Chat with Your Documents
 
 > Completely local RAG with chat UI
 
