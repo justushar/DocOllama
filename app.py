@@ -62,7 +62,7 @@ async def ask_chain(question: str, chain):
 def show_upload_documents():
     holder = st.empty()
     with holder.container():
-        st.header("RagBase")
+        st.header("DocOllama")
         st.subheader("Get answers from your documents")
         uploaded_files = st.file_uploader(
             label="Upload PDF files", type=["pdf"], accept_multiple_files=True
