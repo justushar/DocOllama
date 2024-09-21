@@ -8,7 +8,7 @@ Clone the repo:
 
 ```sh
 git clone git@github.com:justushar/DocOllama.git
-cd ragbase
+cd DocOllama
 ```
 
 Install the dependencies:
